@@ -9,13 +9,11 @@ public class Job {
     private String location;
 
     public Job() {
-        this.id = id;
-        this.title = title;
-        this.description = description;
-        this.minSalary = minSalary;
-        this.maxSalary = maxSalary;
-        this.location = location;
     }
+
+    public Job(long id, String title, String description, String minSalary, String maxSalary, String location) {
+    }
+
 
     public Long getId() {
         return id;
